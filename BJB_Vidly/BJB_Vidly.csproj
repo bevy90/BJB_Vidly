@@ -195,6 +195,18 @@
     <Compile Include="Migrations\202006180249303_ApplyAnnotationToCustomerName.Designer.cs">
       <DependentUpon>202006180249303_ApplyAnnotationToCustomerName.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202006180317591_AddNameToMembershipType.cs" />
+    <Compile Include="Migrations\202006180317591_AddNameToMembershipType.Designer.cs">
+      <DependentUpon>202006180317591_AddNameToMembershipType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202006180319288_PopulateNameOfMembershipType.cs" />
+    <Compile Include="Migrations\202006180319288_PopulateNameOfMembershipType.Designer.cs">
+      <DependentUpon>202006180319288_PopulateNameOfMembershipType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202006180330155_ApplyAnnotationToMembershipTypeName.cs" />
+    <Compile Include="Migrations\202006180330155_ApplyAnnotationToMembershipTypeName.Designer.cs">
+      <DependentUpon>202006180330155_ApplyAnnotationToMembershipTypeName.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -297,6 +309,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202006180249303_ApplyAnnotationToCustomerName.resx">
       <DependentUpon>202006180249303_ApplyAnnotationToCustomerName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202006180317591_AddNameToMembershipType.resx">
+      <DependentUpon>202006180317591_AddNameToMembershipType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202006180319288_PopulateNameOfMembershipType.resx">
+      <DependentUpon>202006180319288_PopulateNameOfMembershipType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202006180330155_ApplyAnnotationToMembershipTypeName.resx">
+      <DependentUpon>202006180330155_ApplyAnnotationToMembershipTypeName.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

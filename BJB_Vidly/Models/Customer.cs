@@ -15,5 +15,6 @@ namespace BJB_Vidly.Models
         public bool IsSubscribedToNewsLetter { get; set; }
         public MembershipType MembershipType { get; set; }
         public byte MembershipTypeId { get; set; }
+        public DateTime? BirthDate { get; set; }
     }
 }

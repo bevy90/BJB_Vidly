@@ -28,7 +28,7 @@ namespace BJB_Vidly.Controllers
 
         public ActionResult Customer(int id)
         {
-            Customer customer = _context.Customers.ToList().SingleOrDefault(c => c.Id == id);
+            Customer customer = _context.Customers.Include(c => c.MembershipType).ToList().SingleOrDefault(c => c.Id == id);
 
             if (customer == null)
             {
